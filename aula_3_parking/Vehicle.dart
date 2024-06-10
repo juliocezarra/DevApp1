@@ -1,8 +1,10 @@
 class Vehicle {
-  late String licensePlate;
-  late String brand;
-  late String model;
-  late String color;
-  late int yearOfManufacture;
-  late int yearModel;
+  String licensePlate;
+  String brand;
+  String model;
+  String? color;
+  int? yearOfManufacture;
+  int? yearModel;
+
+  Vehicle(this.licensePlate,this.brand,this.model);
 }
